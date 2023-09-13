@@ -1,0 +1,37 @@
+.calendar-container > div {
+  margin: auto;
+  width: 90%;
+  padding: 0rem 5rem;
+  max-width: 1100px;
+}
+
+.fc-event {
+  background: var(--orange-gradient) !important;
+  color: black !important;
+}
+
+.fc .fc-timegrid-slot {
+  height: 2.5rem !important;
+}
+
+.fc .fc-timegrid-slot-label {
+  vertical-align: middle;
+  padding: 0rem 1.5rem;
+}
+
+.fc .fc-col-header-cell-cushion {
+  display: inline-block;
+  padding: 15px 4px;
+}
+
+/* .fc-event-title.fc-sticky {
+    font-weight: 600 !important;
+}
+
+.fc-event-time {
+    font-weight: 600 !important;
+} */
+
+td {
+  border: 1px solid var(--grey) !important;
+}

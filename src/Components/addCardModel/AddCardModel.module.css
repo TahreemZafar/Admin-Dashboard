@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+     
+}
+.container>div{
+    margin-top: 2rem;
+}
+
+.label{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.input{
+    color: black;
+    font: inherit;
+    margin-top: 15px;
+    display: block;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgb(98, 98, 98);
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    resize: none
+}
+
+.rodal-close {
+    position: absolute;
+    cursor: pointer;
+    top: 21px !important;
+    right: 22px !important;
+    width: 25px !important;
+    height: 24px!important;
+}
+
+.saveButton{
+    width: 100%;
+    margin-top: 1.5rem;
+    background: var(--orange-gradient);
+    border: none;
+    padding: 21px;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.saveButton:disabled{
+    background: grey;
+}
